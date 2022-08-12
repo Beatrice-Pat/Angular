@@ -1,0 +1,18 @@
+//Titre de la page
+h1 {
+    text-align: center;
+}
+
+//Positionnement des 2 premiers blocks ABC
+.first-lign-block {
+    display: flex;
+    justify-content: space-between;
+}
+//Positionnement des 2 derniers bloccks ABC
+.second-lign-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 600px;
+    
+}
+
