@@ -1,0 +1,12 @@
+<section>
+    <img [src]="User.photo" [alt]="User.name" /> <br>
+    Prénom : {{User.firstName}} <br>
+    Nom : {{User.name}} <br>
+    Citation : <input [(ngModel)] ="User.quote"> {{User.quote}} <br>
+    Age : <span [hidden]="userAge">{{User.age}}</span> 
+  <button (click)="hideAge()">
+   Masquer l'age
+ </button>
+
+</section> 
+
